@@ -1,0 +1,185 @@
+ /*common start*/
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #3d2514;
+   line-height: 24px;
+}
+
+/*common end*/
+/* header start*/
+header{
+   padding-top: 50px;
+   background-image: url(../images2/BHbackground.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-height: 400px;
+}
+.container{
+   margin: 0 auto;
+   width: 90%;
+   overflow: hidden;
+   border: 1px solid black;
+}
+.left{
+   width: 45%;
+   float: left;
+   border: 1px solid darkred;
+}
+.logo{
+   width: 50%;
+}
+.logo img{
+   width: 100%;
+}
+.left h3{
+
+   margin-top: 170px;
+   padding: 10px;
+   display: inline-block;
+   font-family: 'Bebas Neue', cursive;
+
+   font-size: 23px;
+   font-weight: 400;
+   text-transform: uppercase;
+   border: dashed ;
+
+}
+.left h1{
+   margin: 25px 0;
+   display: inline-block;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 114px;
+   font-weight: ;
+   text-transform: uppercase;
+   line-height: 60px;
+}
+.left h2{
+
+   display: inline-block;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 56px;
+   text-transform: uppercase;
+}
+.right{
+   width: 50%;
+   float: right;
+   border: 1px solid black;
+   
+}
+.contact{
+   border: 1px solid black;
+   overflow: hidden;
+}
+.c_img{
+   width: 10%;
+   float: left;
+   padding-left: 220px;
+
+}
+.c_img img{
+   width: 100%;
+
+}
+.contact p{
+   width: 47%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   float: right;
+   color: #3d2514;
+}
+.right ul{
+   margin: 20px 0 75px;
+   float: right;
+
+}
+.right ul li{
+   list-style: none;
+   float: left;
+ 
+}
+.right ul li a{
+   margin: 0 25px;
+   display: inline-block;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 20px;
+   color: #3d2514;
+   text-decoration: none;
+   text-transform: uppercase;
+
+}
+.right ul li:last-child a {
+   margin-right: 0;
+}
+.bd_img{
+   margin-right: 60px;
+}
+.bd_img img{
+   width: 100%;
+}
+/*header end*/
+/*bannerstart*/
+.banner{
+   padding: 45px 0;
+   overflow: hidden;
+}
+.container2{
+   margin: 0 auto;
+   width: 80%;
+   border: 1px solid black;
+}
+.burger_img1{
+   width: 47%;
+   float: left;
+}
+.burger_img1 img{
+   width: 100%;
+}
+
+.burger_img2{
+   width: 47%;
+   float: right;
+}
+.burger_img2 img{
+   width: 100%;
+}
+.burger_img2 img:last-child {
+   margin-top: 30px;
+}
+/*banner end*/
+/*feature start*/
+.service{
+    text-align: center;*/
+
+}
+.service h1{
+   display: inline-block;
+   background-color: yellow;
+}
+.service h2{}
+.service p{}
+.single_service{
+   width: 30%;
+   float: left;
+   border: 1px solid black;
+} 
+.s_img{
+
+}
+.s_img img{
+   width: 100%;
+}
+.s_service h2{
+   display: inline-block;
+}
+.s_service p{}
+.single_service button{
+   color: white;
+   border: none;
+   background-color: darkred;
+}
