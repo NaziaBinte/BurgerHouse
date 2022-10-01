@@ -17,13 +17,13 @@ header{
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   min-height: 400px;
+   
 }
 .container{
    margin: 0 auto;
    width: 90%;
    overflow: hidden;
-   border: 1px solid black;
+   
 }
 .left{
    width: 45%;
@@ -131,7 +131,7 @@ header{
 .container2{
    margin: 0 auto;
    width: 80%;
-   border: 1px solid black;
+   
 }
 .burger_img1{
    width: 47%;
@@ -152,34 +152,240 @@ header{
    margin-top: 30px;
 }
 /*banner end*/
-/*feature start*/
+/*service start*/
 .service{
-    text-align: center;*/
+   overflow: hidden;
+   text-align: center;
+   border: 1px solid black;
+}
+.s_content h1{
+   margin: 0;
+   padding: 15px;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 25px;
+   display: inline-block;
+   background-color: #ffc045;
+}
+.s_content h2{
+   margin: 45px 0 30px;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 50px;
+   text-transform: uppercase;
 
 }
-.service h1{
-   display: inline-block;
-   background-color: yellow;
+.s_content p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 29px;
 }
-.service h2{}
-.service p{}
 .single_service{
-   width: 30%;
+   margin-right: 3%;
+   width: 31%;
    float: left;
    border: 1px solid black;
 } 
+.single_service:last-child {
+   margin-right: 0;
+}
 .s_img{
 
 }
 .s_img img{
    width: 100%;
 }
-.s_service h2{
+.single_service h2{
    display: inline-block;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 37px;
 }
-.s_service p{}
+.single_service p{}
 .single_service button{
+   padding: 20px;
+   cursor: pointer;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 16px;
    color: white;
+   text-transform: uppercase;
    border: none;
-   background-color: darkred;
+   background-color: #bf2222;
+}
+/*service end*/
+/*feature start*/
+.feature{
+   margin: 100px 0 50px;
+   
+
+
+}
+.f_wrapper{
+   margin: 0;
+   padding: 20px 10px 10px;
+   overflow: hidden;
+   box-shadow: 20px 11px 15px 10px rgba(219,219,219,1);
+}
+.f_content{
+   margin: 0;
+   padding-top: 20px;
+   width: 48%;
+   float: left;
+}
+.f_content h2{
+   margin: 0;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 29px;
+   font-weight: 400;
+   line-height: 45px;
+
+}
+.f_content h1{
+   margin: 0;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 35px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   line-height: 45px;
+}
+.f_content p{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   line-height: 30px;
+}
+.f_img{
+   width: 52%;
+   float: right;
+}
+.f_img img{
+   width: 100%;
+}
+/*feature end*/
+/*table start*/
+.table{
+   position: relative;
+   margin-bottom: 140px;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  
+}
+.wrapper h2{
+   margin: 0;
+   margin-top: 130px;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 29px;
+   letter-spacing: 3px;
+   display: inline-block;
+   text-align: center;
+   text-transform: uppercase;
+}
+.wrapper h1{
+   margin: 25px 0 90px;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 50px;
+   letter-spacing: 3px;
+   line-height: 45px;
+   text-transform: uppercase;
+   
+   
+}
+.r_form{
+   margin: 0 auto;
+   width: 40%;
+}
+.r_form:nth-child(odd) {
+   mar
+}
+input{
+   margin-bottom: 10px;
+   padding: 15px;
+   width: 40%;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 20PX;
+   color: #ffffff;
+   text-transform: uppercase;
+   border: 1px solid #2c2525;
+   border-radius: 5px;
+   
+}
+
+.r_form button{
+   width: 45%;
+   padding: 15px;
+   cursor: pointer;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 20px;
+   color: white;
+   text-transform: uppercase;
+   background-color: #bf2222;
+   border: none;
+   border-radius: 5px;
+
+}
+.burger{
+   position: absolute;
+   bottom: 190px;
+   left: 0;
+   
+}  
+.bottle{
+   position: absolute;
+   top: 215px;
+   left: 75px;
+}
+.dish{
+   position: absolute;
+   right: 0;
+   top: 200px;
+}
+/*table end*/
+/*footer start*/
+footer{
+   
+   
+   background-image: url(../images/f_bc.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover
+
+   
+}
+.f_wrapper{
+  overflow: hidden;
+}
+.f_left{
+   margin-top: 80px;
+   width: 50%;
+   float: left;
+}
+.f_left-img{
+   
+}
+.f_left-img img{
+   width: 100%;
+}
+.f_left p{
+   color: white;
+}
+.f_right{
+   margin-top: 130px;
+   width: 50%;
+   float: right;
+}
+.fr1{}
+.fr1_img{}
+.fr1_img img{
+   
+}
+.fr1 p{
+   color: white;
+}
+.fr2{}
+.fr2_img{}
+.fr2_img img{
+  
+}
+.fr2 p{
+   color: white;
 }
