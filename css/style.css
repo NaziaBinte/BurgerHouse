@@ -1,4 +1,4 @@
- /*common start*/
+/*common start*/
 body{
    margin: 0;
    padding: 0;
@@ -342,9 +342,10 @@ input{
 /*table end*/
 /*footer start*/
 footer{
-   
-   
-   background-image: url(../images/f_bc.jpg);
+   margin: 0 auto;
+   margin-bottom: 60px;
+   width: 90%;
+   background-image: url(../images/f_bc.jpg);*/
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover
@@ -353,6 +354,7 @@ footer{
 }
 .f_wrapper{
   overflow: hidden;
+  border: 1px solid black;
 }
 .f_left{
    margin-top: 80px;
@@ -369,23 +371,52 @@ footer{
    color: white;
 }
 .f_right{
-   margin-top: 130px;
-   width: 50%;
+   margin-top: 200px;
+   width: 30%;
    float: right;
+   overflow: hidden;
 }
-.fr1{}
-.fr1_img{}
-.fr1_img img{
+.fr1{
+   overflow: hidden;
+}
+.fr1_img{
+    width: 10%;
+    display: inline-block;
+    float: left;
+}
    
 }
-.fr1 p{
-   color: white;
+.fr1_img img{
+   width: 100%;
 }
-.fr2{}
-.fr2_img{}
+.fr1 p{
+   margin: 0;
+   margin-left: 5px;
+   width: 86%;
+   color: white;
+   float: right;
+ 
+   
+}
+.fr2{
+   margin-top: 10px;
+  overflow: hidden;
+}
+.fr2_img{
+    width: 10%;
+    display: inline-block;
+    float: left;
+}
+}
 .fr2_img img{
-  
+  width: 100%;
 }
 .fr2 p{
+   margin: 0;
+
+   width: 85%;
    color: white;
+   
+   float: right;
 }
+Footer
